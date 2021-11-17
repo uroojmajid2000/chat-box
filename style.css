@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 425px;
+    height: 600px;
+    margin-top: 70px ;
+    margin-left: 500px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.header{
+    width: 425px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(133, 130, 130);
+   
+}
+.header .header-img{
+    padding: 10px;
+}
+.header .header-img img{
+    border-radius: 60%;
+    width: 100%;
+    height: 100%;
+}
+.container .header-name{
+    padding-top: 16px;
+    padding-left: 8px;
+}
+
+.container .header-name p{
+    color: rgb(133, 130, 130);
+}
+.container .header-icons{
+   display: flex;
+   position: relative;
+   padding: 16px 1px 1px 40px;
+   justify-content: space-between;
+}
+.container .header-icons .fas{
+    padding: 15px;
+    color: rgb(133, 130, 130);
+    font-size: 20px;
+}
+.chat-page{
+    width: 425px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.container .chat-page .header-img{
+  padding: 20px 15px 10px 15px;
+}
+
+.container .chat-page .header-img img{
+    
+    border-radius: 60%;
+    width: 100%;
+    height: 100%;
+
+}
+.container .chat-page .chat-msg{
+
+    
+    border-radius: 6px;
+    height: 80px;
+    background-color: rgb(236, 232, 232);
+    padding: 4px 20px 20px 10px;
+    margin: 5px;
+    }
+
+    .container .reply{
+        float: right;
+        margin: 45px 5px;
+        
+    }
+    .container .reply h3{
+        display: flex;
+       border-radius: 6px;
+        
+        background-color: rgb(95, 95, 255);
+        padding: 8px;
+    }
+
+    .container .reply p{
+        display: flex;
+       border-radius: 6px;
+        
+        background-color: rgb(95, 95, 255);
+        padding: 8px;
+        margin-top: 5px;
+    }
+
+    .typing-box{
+        
+       margin-top: 100px;
+        border-top: 3px solid rgb(133, 130, 130);
+    
+    }
+    .typing-box input{
+        padding: 10px 0px;
+        border: none;
+       padding-left: 1px;
+    }
+    .files-add{
+        margin: 2px;
+        padding: 4px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .files-add .fas,.far ,.fal,.fas{
+        color: rgb(133, 130, 130);
+        font-size: 30px;
+    }
+    
